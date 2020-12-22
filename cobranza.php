@@ -132,7 +132,7 @@ $datediff=round($datediff / (60 * 60 * 24));
 
 ?>
 <tr <?php if($datediff>9 && $estado=="0") { echo "bgcolor='#ff8080'";} ?></tr>
-		<td><a href="/documentos/detalle_dcto.php?cod_documento=<?php echo $cod_documento; ?>"><?php echo $cod_documento; ?></a></td>
+		<td><a href="/SYS-Cromatix/documentos/detalle_dcto.php?cod_documento=<?php echo $cod_documento; ?>"><?php echo $cod_documento; ?></a></td>
 		<td><?php echo $tipo; ?></td>
 		<td><?php echo $nombre; ?></td>
 		<td><?php echo $referencia; ?></td>
@@ -271,7 +271,7 @@ $datediff=round($datediff / (60 * 60 * 24));
 
 ?>
 <tr <?php if($datediff>9 && $estado=="0") { echo "bgcolor='#ff8080'";} ?></tr>
-		<td><a href="/documentos/detalle_dcto.php?cod_documento=<?php echo $cod_documento; ?>"><?php echo $cod_documento; ?></a></td>
+		<td><a href="/SYS-Cromatix/documentos/detalle_dcto.php?cod_documento=<?php echo $cod_documento; ?>"><?php echo $cod_documento; ?></a></td>
 		<td><?php echo $tipo; ?></td>
 		<td><?php echo $nombre; ?></td>
 		<td><?php echo $referencia; ?></td>

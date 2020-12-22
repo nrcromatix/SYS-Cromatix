@@ -11,7 +11,7 @@
   <ul class="menu">
    
    
-        <li class="menu-item"><a href="/busca_producto.php">Productos</a>
+        <li class="menu-item"><a href="/SYS-Cromatix/busca_producto.php">Productos</a>
       <ul class="dropdown">
 <?php 
 
@@ -26,8 +26,8 @@ $id_vendedor=$rowper["cod_directorio"];
 }}
 
 if ($nivelper<>3 and $nivelper<>4) { ?>
-		  <li class="menu-item sub-menu"><a href="/nuevo_producto.php">Nuevo Producto</a></li>
-		   <li class="menu-item sub-menu"><a href="/categorias.php">Categorias</a></li>
+		  <li class="menu-item sub-menu"><a href="/SYS-Cromatix/nuevo_producto.php">Nuevo Producto</a></li>
+		   <li class="menu-item sub-menu"><a href="/SYS-Cromatix/categorias.php">Categorias</a></li>
 	<?php } ?>
       </ul>
     </li>
@@ -35,7 +35,7 @@ if ($nivelper<>3 and $nivelper<>4) { ?>
 if ($nivelper<>4) { ?>
 
     
-            <li class="menu-item"><a href="/directorio/directorio.php">Directorio</a>
+            <li class="menu-item"><a href="/SYS-Cromatix/directorio/directorio.php">Directorio</a>
       <ul class="dropdown">
 
       </ul>
@@ -43,30 +43,30 @@ if ($nivelper<>4) { ?>
 
 <?php } ?>
 
-            <li class="menu-item"><a href="/documentos/documentos.php">Documentos</a>
+            <li class="menu-item"><a href="/SYS-Cromatix/documentos/documentos.php">Documentos</a>
 <?php if ($nivelper<>4) { ?>         
 <ul class="dropdown">
-<li class="menu-item sub-menu"><a href="/documentos/ordenes_compra.php">Seguimiento Ordenes</a></li>
+<li class="menu-item sub-menu"><a href="/SYS-Cromatix/documentos/ordenes_compra.php">Seguimiento Ordenes</a></li>
       </ul><?php } ?>
     </li>
 
 <?php if ($nivelper<>3 and $nivelper<>4) { ?>     
               <li class="menu-item"><a href="">Reportes</a>
       <ul class="dropdown">
-		  <li class="menu-item sub-menu"><a href="/reporte_cot_aceptadas.php">Cotizaciones Aceptadas</a></li>
-		   <li class="menu-item sub-menu"><a href="/flujo_caja.php">Flujo de Caja</a></li>
-		   <li class="menu-item sub-menu"><a href="/cobranza.php">Cobranza</a></li>
-			<li class="menu-item sub-menu"><a href="/ventasxcliente.php">Ventas por Cliente</a></li>
+		  <li class="menu-item sub-menu"><a href="/SYS-Cromatix/reporte_cot_aceptadas.php">Cotizaciones Aceptadas</a></li> <!-- Esto no esta funcionando --> 
+		   <li class="menu-item sub-menu"><a href="/SYS-Cromatix/flujo_caja.php">Flujo de Caja</a></li>
+		   <li class="menu-item sub-menu"><a href="/SYS-Cromatix/cobranza.php">Cobranza</a></li>
+			<li class="menu-item sub-menu"><a href="/SYS-Cromatix/ventasxcliente.php">Ventas por Cliente</a></li>
       </ul>
     </li>
     
     </li>
 <?php } ?>
-           <li class="menu-item"><a href="/rrhh/rrhh.php">RRHH</a>
+           <li class="menu-item"><a href="/SYS-Cromatix/rrhh/rrhh.php">RRHH</a>
       <ul class="dropdown">
 
       </ul>
-            <li class="menu-item"><a href="/logout.php">Salir</a>
+            <li class="menu-item"><a href="/SYS-Cromatix/logout.php">Salir</a>
       <ul class="dropdown">
 
       </ul>
